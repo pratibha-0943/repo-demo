@@ -1,0 +1,104 @@
+
+/* Basic Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body & Background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #e2e2e2;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Section Styling */
+section {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #6a11cb;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Experience Section */
+.experience article {
+    margin-bottom: 20px;
+}
+
+.experience h3, .education p {
+    font-weight: bold;
+}
+
+.experience ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.dates {
+    font-style: italic;
+    color: #2575fc;
+    margin-bottom: 5px;
+}
+
+/* Education Section */
+.education p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+}
+
+footer a {
+    color: #50bcdf;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
